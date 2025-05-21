@@ -17,6 +17,10 @@ app.get('/login',(req,res)=>{
     res.send("<h1>You Are Not Logged In Yet..</h1>")
 })
 
+app.get('/test',(req,res)=>{
+  res.send("Testing For Next Commit !!")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
