@@ -1,7 +1,9 @@
 require('dotenv').config()
+const cors = require('cors') 
 const express = require('express') // Common JS
 // import express from "express" -> new Pattern // Module JS 
 const app = express()
+app.use(cors())
 const port = process.env.PORT || 8080
 // const port = 2000
 
