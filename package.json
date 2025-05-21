@@ -1,0 +1,20 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Just Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "testing"
+  ],
+  "author": "kartik patel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
