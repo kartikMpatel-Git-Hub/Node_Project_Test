@@ -2,8 +2,8 @@ require('dotenv').config()
 const express = require('express') // Common JS
 // import express from "express" -> new Pattern // Module JS 
 const app = express()
-// const port = process.env.PORT || 8080
-const port = 2000
+const port = process.env.PORT || 8080
+// const port = 2000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
